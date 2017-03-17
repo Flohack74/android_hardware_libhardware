@@ -62,7 +62,8 @@ typedef enum {
 } power_hint_t;
 
 typedef enum {
-    POWER_FEATURE_DOUBLE_TAP_TO_WAKE = 0x00000001
+    POWER_FEATURE_DOUBLE_TAP_TO_WAKE = 0x00000001,
+    POWER_FEATURE_SUPPORTED_PROFILES
 } feature_t;
 
 /**
